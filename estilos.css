@@ -3,10 +3,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-}
 body {
   margin: 0;
-  font-family: font-family: 'Poppins', sans-serif;
+  font-family:'Poppins', sans-serif;
   background-color: #EAF6F5;
   color: #2F3E46;
 }
@@ -16,7 +15,7 @@ body {
   background-color: #5FA8A3   /* verde agua */
 ;
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
   display: flex;
   align-items: center;
 }
@@ -259,5 +258,33 @@ section {
 .btn-whatsapp:hover {
   background-color: #128C7E;
 }
+@media (max-width: 768px) {
 
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    margin: 10px 0 0 0;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .servicios {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+}
 
